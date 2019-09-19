@@ -15,5 +15,6 @@ def sort
   roster.each do |student name, roster|
     sorted[grade] << student_name
 end 
+sorted
 end
 
